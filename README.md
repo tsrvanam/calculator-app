@@ -416,9 +416,8 @@ mvn test
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
+**Sravanam Thirupathi Rao**
+- GitHub: https://github.com/tsrvanam
 
 ---
 
