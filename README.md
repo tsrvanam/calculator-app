@@ -140,7 +140,7 @@ Developer Push
 | Tool | Version | Installation |
 |------|---------|-------------|
 | Java JDK | 11+ | `sudo apt install openjdk-11-jdk` |
-| Apache Maven | 3.6+ | `sudo apt install maven` |
+| Apache Maven | 3.6+ | https://dlcdn.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.zip |
 | Apache Tomcat | 9.x | https://tomcat.apache.org |
 | SonarQube | 9.x+ | https://www.sonarqube.org |
 | Nexus Repository | 3.x | https://www.sonatype.com/products/nexus-repository |
