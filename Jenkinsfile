@@ -21,10 +21,17 @@ node {
         sh "${mvnHome}/bin/mvn clean package"
     }
 
+    stage('SonarQube Analysis') {
+            withSonarQubeEnv('sonarqube-server') {
+                sh "${mvnHome}/bin/mvn sonar:sonar -Dsonar.projectKey=calculator-app"
+            }
+        }
+
     stage('Archive Artifact') {
         echo "Archiving WAR file..."
         archiveArtifacts artifacts: '**/*.war', fingerprint: true
     }
+    
 
     // Post actions (Scripted way using try/catch)
     try {
