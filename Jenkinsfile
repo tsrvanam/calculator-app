@@ -1,6 +1,5 @@
 node {
 
-    // Define Maven tool from Jenkins Global Tool Configuration
     def mvnHome = tool name: 'maven 3.9.14', type: 'maven'
     
     stage('Checkout Code') {
