@@ -4,7 +4,7 @@ A full-stack calculator app built with **Java Servlets + JSP**, packaged as a **
 
 ---
 
-## Project Structure
+## Project Structure.
 
 ```
 calculator-app/
